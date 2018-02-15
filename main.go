@@ -1,8 +1,8 @@
 package main
 
 import (
+	"cmd"
 	"figure"
-	"github.com/sygibson/go-figure/cmd"
 )
 
 /* ToDo:
