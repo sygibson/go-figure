@@ -2,6 +2,7 @@ package main
 
 import (
 	"figure"
+	"github.com/sygibson/go-figure/cmd"
 )
 
 /* ToDo:
@@ -25,6 +26,8 @@ import (
 */
 
 func main() {
+	cmd.Execute()
+
 	myFigure := figure.NewFigure("Hello World", "", true)
 	myFigure.Print()
 }
